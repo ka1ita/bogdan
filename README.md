@@ -133,9 +133,17 @@ passwd user
 f.	Подключите созданную NFS шару с сервера 10.11.12.1. Она должна автоматический монтироваться по пути /mnt/nfsshare.
 
 g.	Настройте подключение по SSH для удалённого конфигурирования устройства.
-
+```
+sudo /bin/sh -c 'echo "PermitRootLogin yes" >> /etc/openssh/sshd_config'
+sudo /bin/sh -c 'echo "PasswordAuthentication yes" >> /etc/openssh/sshd_config'
+systemctl restart sshd
+```
 h.	Необходимо поставить сервер для игры «CS 1.6» выбор пути установки на ваш выбор но мы рекомендуем поставить через docker.
-
+```
+apt-get install docker
+docker pull febley/counter-strike_server
+docker run --name counter-strike_server -p 27015:27015/udp -p 27015:27015 febley/counter-strike_server:latest
+```
 i.	Установите хранилище данных nextcloud.
 ```
 apt-get install deploy

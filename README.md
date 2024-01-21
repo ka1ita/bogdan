@@ -16,12 +16,14 @@ a.	Проведите обновление системы.
 # apt-get dist-upgrade
 # update-kernel
 # apt-get clean
-# reboot```
+# reboot
+```
 
 b.	Создайте пользователя user2 с паролем P@ssw0rd.
 ```# useradd user2
 # passwd user2
-P@ssw0rd```
+P@ssw0rd
+```
 c.	Установите Яндекс браузер.
 ```$ su -
 # apt-get update

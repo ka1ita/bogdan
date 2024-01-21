@@ -87,9 +87,11 @@ su -
 apt-get update
 apt-get install wine-full i586-wine
 ```
-Скачиваем тут или тут:
+Скачиваем тут:
 
 https://your-cs.com/download.php?id=121
+
+Или тут:
 
 https://dl4.your-cs.com/yourmon_cs16.exe
 ```

@@ -140,9 +140,16 @@ i.	Установите хранилище данных nextcloud.
 ```
 apt-get install deploy
 deploy nextcloud
-Открываем:
 ```
+Чтобы узнать пароль пользователя ncadmin сразу после разворачивания, можно посмотреть значение параметра admin-pass в журнале:
+```
+journalctl -b |grep admin-pass
+```
+Открываем:
+
 http://localhost/nextcloud
+
+Пользователь ncadmin, пароль 
 
 i.	Настройте пользователя USER_RESU с паролем P@ssw0rd для доступа с клиентского компьютера
 ```

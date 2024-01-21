@@ -135,3 +135,8 @@ passwd USER_RESU
 P@ssw0rd
 ```
 j.	Установите Web-интерфейс Алтератор для управления сервером с CLI.
+```
+apt-get install alterator-fbi
+service alteratord start; service ahttpd start
+https://localhost:8080
+```

@@ -45,6 +45,7 @@ d.	Установите антивирус Kaspersky.
 Скачать в Яндекс браузере
 ```
 https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633377c44454c7c31/kesl-gui-12.0.0-6672.x86_64.rpm
+
 https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633347c44454c7c31/kesl-12.0.0-6672.x86_64.rpm
 ```
 Открыть каталог Загрузки 

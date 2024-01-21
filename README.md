@@ -149,8 +149,10 @@ journalctl -b |grep admin-pass
 
 http://localhost/nextcloud
 
-Пользователь ncadmin, пароль 
-
+Пользователь ncadmin, пароль тут:
+```
+journalctl -b |grep admin-pass
+```
 i.	Настройте пользователя USER_RESU с паролем P@ssw0rd для доступа с клиентского компьютера
 ```
 useradd USER_RESU

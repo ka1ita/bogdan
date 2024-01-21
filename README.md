@@ -20,7 +20,8 @@ a.	Проведите обновление системы.
 ```
 
 b.	Создайте пользователя user2 с паролем P@ssw0rd.
-```# useradd user2
+```
+# useradd user2
 # passwd user2
 P@ssw0rd
 ```

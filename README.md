@@ -26,7 +26,6 @@ b.	Создайте пользователя user2 с паролем P@ssw0rd.
 ```
 useradd user2
 passwd user2
-P@ssw0rd
 ```
 c.	Установите Яндекс браузер.
 ```
@@ -175,4 +174,3 @@ apt-get install alterator-fbi
 service alteratord start; service ahttpd start
 ```
 https://localhost:8080
-

@@ -138,5 +138,5 @@ j.	Установите Web-интерфейс Алтератор для упр�
 ```
 apt-get install alterator-fbi
 service alteratord start; service ahttpd start
-(https://localhost:8080)
+[https://localhost:8080](https://localhost:8080)
 ```

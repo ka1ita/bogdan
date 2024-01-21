@@ -40,10 +40,12 @@ i.	Настройте блокировщик рекламы для работы 
 ```
 ii.	Подключитесь к nextcloud и сохраните учётные данные для входа.
 d.	Установите антивирус Kaspersky.
-i.	Настройте расписание сканирование системы.
+
 ```
-Открыть каталог с Kaspersky 
-Скопировать Kaspersky в «Файловая система» - /tmp
+Скачать в Яндекс браузере
+https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633377c44454c7c31/kesl-gui-12.0.0-6672.x86_64.rpm
+https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633347c44454c7c31/kesl-12.0.0-6672.x86_64.rpm
+Открыть каталог Загрузки 
 Правой кнопкой – «Открыть в установка RPM»
 Ввести пароль root
 
@@ -60,13 +62,16 @@ y
 Enter
 …
 ```
+i.	Настройте расписание сканирование системы.
 ii.	Проверить работоспособность антивируса с помощью программы eicar.
-В Яндекс Браузере скачиваем eicar.
+В Яндекс Браузере ищем и скачиваем eicar.
+http://www.virusanalyst.com/eicar.zip
 e.	Установите Telegram (они должны запускается, но не авторизовывайтесь)
 ```
 su -
 apt-get update
-apt-get install telegram-desktop```
+apt-get install telegram-desktop
+```
 f.	Установите Steam (они должны запускается, но не авторизовывайтесь)
 ```
 apt-get update; apt-get install i586-steam

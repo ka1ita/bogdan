@@ -17,7 +17,6 @@ a.	Проведите обновление системы.
 su -
 apt-get update
 apt-get dist-upgrade
-update-kernel
 apt-get clean
 reboot
 ```
@@ -108,6 +107,8 @@ i.	После установки запустите игру и подключи
 Текущие учетные данные пользователь user с паролем resu, и пользователь root с паролем toor.
 a.	Настройте следующий IP адрес 10.11.12.10 с маской 255.255.255.0 (24) шлюз по умолчанию 10.11.12.1 и DNS сервер 10.11.12.1
 ```
+открыть mc
+
 В файл /etc/net/ifaces/enp0s3/ipv4address
 10.11.12.10/24
 
@@ -120,7 +121,7 @@ nameserver 10.11.12.1
 В файле /etc/net/ifaces/enp0s3/options
 заменяем BOOTPROTO=dhcp на BOOTPROTO=static
 
-systemct restart network
+reboot
 ```
 b.	Проверьте связность между SRV и CLI, а также доступность в интернет.
 ```
@@ -131,7 +132,6 @@ c.	Проведите обновление системы.
 su -
 apt-get update
 apt-get dist-upgrade
-update-kernel
 apt-get clean
 reboot
 ```

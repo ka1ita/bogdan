@@ -148,8 +148,11 @@ f.	Подключите созданную NFS шару с сервера 10.11.
 
 g.	Настройте подключение по SSH для удалённого конфигурирования устройства.
 ```
-sudo /bin/sh -c 'echo "PermitRootLogin yes" >> /etc/openssh/sshd_config'
-sudo /bin/sh -c 'echo "PasswordAuthentication yes" >> /etc/openssh/sshd_config'
+Открыть mc
+В файе /etc/openssh/sshd_config
+PermitRootLogin yes
+
+PasswordAuthentication yes
 systemctl restart sshd
 ```
 h.	Необходимо поставить сервер для игры «CS 1.6» выбор пути установки на ваш выбор но мы рекомендуем поставить через docker.

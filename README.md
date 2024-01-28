@@ -144,6 +144,12 @@ e.	Поменяйте пароль пользователю user на P@ssw0rd.
 ```
 passwd user
 ```
+j.	Установите Web-интерфейс Алтератор для управления сервером с CLI.
+```
+apt-get install alterator-fbi
+service alteratord start; service ahttpd start
+```
+https://localhost:8080
 f.	Подключите созданную NFS шару с сервера 10.11.12.1. Она должна автоматический монтироваться по пути /mnt/nfsshare.
 ```
 su -
@@ -192,9 +198,3 @@ useradd USER_RESU
 passwd USER_RESU
 P@ssw0rd
 ```
-j.	Установите Web-интерфейс Алтератор для управления сервером с CLI.
-```
-apt-get install alterator-fbi
-service alteratord start; service ahttpd start
-```
-https://localhost:8080

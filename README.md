@@ -62,6 +62,9 @@ Enter
 y
 Enter
 …
+user with admin rights - указать user
+advanced update settings - n 
+
 ```
 i.	Настройте расписание сканирование системы.
 

@@ -44,15 +44,14 @@ d.	Установите антивирус Kaspersky.
 ```
 Скачать в Яндекс браузере
 ```
-https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633347c44454c7c31/kesl-12.0.0-6672.x86_64.rpm
-
-https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.0.0.6672/multilanguage-12.0.0.6672/3739343633377c44454c7c31/kesl-gui-12.0.0-6672.x86_64.rpm
+https://products.s.kaspersky-labs.com/endpoints/keslinux10/11.4.0.1096/multilanguage-11.4.0.1096/3732393737337c44454c7c31/kesl-11.4.0-1096.x86_64.rpm
+https://products.s.kaspersky-labs.com/endpoints/keslinux10/11.4.0.1096/multilanguage-11.4.0.1096/3732393737367c44454c7c31/kesl-gui-11.4.0-1096.x86_64.rpm
 ```
 Открыть каталог Загрузки 
-Правой кнопкой kesl-12.0.0-6672.x86_64.rpm – «Открыть в установка RPM»
+Правой кнопкой kesl-11.4.0-1096.x86_64.rpm – «Открыть в установка RPM»
 Ввести пароль root
 
-Правой кнопкой kesl-gui-12.0.0-6672.x86_64.rpm – «Открыть в установка RPM»
+Правой кнопкой kesl-gui-11.4.0-1096.x86_64.rpm – «Открыть в установка RPM»
 Ввести пароль root
 
 su -
